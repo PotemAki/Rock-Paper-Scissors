@@ -1,0 +1,78 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.css-whole-element{
+  width: 500px;
+  height: 600px;
+  padding: 20px 40px;
+  background-color: rgb(32, 32, 32);
+  border: solid;
+  border-color: white;
+  border-radius: 20px;
+}
+.css-output-elements{
+  height: 55px;
+  padding-bottom: 20px;
+}
+.css-output-elements1{
+  height: 40px;
+}
+.css-output-score,
+.css-title{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.css-output-picks,
+.css-output-scoreboard{
+  color: white;
+  
+}
+.css-rock-button,
+.css-paper-button,
+.css-scissors-button{
+  width: 120px;
+  height: 120px;
+  background-color: black;
+  border: solid;
+  border-color: white;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.css-game-buttons{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.css-auto-play:active,
+.css-reset-button:active,
+.css-rock-button:active,
+.css-paper-button:active,
+.css-scissors-button:active{
+  opacity: 0.5;
+}
+.icon1{
+  width: 60px;
+}
+.css-auto-play,
+.css-reset-button{
+  width: 100px;
+  height: 80px;
+  background-color: black;
+  border: solid;
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.7s;
+  margin-right: 15px;
+}
